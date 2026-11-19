@@ -1,6 +1,6 @@
 # Next.js 16.4.5 — canceled MPA cannot be retried
 
-**Independent, minimal reproduction candidate.** This directory does not contain Vellira code, custom Next.js patches, Cloudflare, or security credentials. The scripts have been syntax-checked, but this standalone fixture has **not yet been run against a real browser**. Do not publish an upstream `confirmed` claim from this fixture until running it.
+**Independent, minimal reproduction candidate.** This directory does not contain Vellira code, custom Next.js patches, Cloudflare, or security credentials. The scripts have been syntax-checked, and this standalone fixture has been confirmed in Playwright WebKit on stock Next.js 16.4.5 and 16.5.0-canary.56. Normal navigation works; retries after HTTP 204 and dismissed beforeunload remain stuck.
 
 ## Setup (macOS/Linux, Node.js 22+)
 
